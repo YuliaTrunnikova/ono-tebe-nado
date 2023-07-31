@@ -161,7 +161,85 @@
 .lots {
     height: 579px;
     background-color: #FFF;
+    padding: 180px 50px;
 
+}
+
+.lots__heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+
+}
+
+.lots__card-list {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 25px;
+list-style: none;
+}
+
+.lots__card-list-item {
+    max-width: 430px;
+    min-height: 450px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+.card-link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card .overlay {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+.card__title {
+    color: #FFF;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.card__text {
+    color: #FFF;
+    font-size: 20px;
+
+}
+
+.card_type_film {
+    background-image: url(/images/card-lot-01.jpg);
+    background-size: cover;
+
+}
+
+.card_type_book {
+    background-image: url(/images/card-lot-02.jpg);
+    background-size: cover;
+}
+
+.card_type_picture {
+    background-image: url(/images/card-lot-03.jpg);
+    background-size: cover;
+
+}
+
+.lots__look-more-link {
+ text-decoration: underline;
+ text-underline-position: under;
+ font-size: 20px;
 }
 
 .about {
