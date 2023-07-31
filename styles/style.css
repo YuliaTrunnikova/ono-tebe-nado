@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 92px 51px 92px 49px;
+    padding: 92px 50px;
 
 }
 
@@ -20,10 +20,6 @@
     gap: 25px;
     list-style: circle;
     
-
-}
-
-.header__links-list-item {
 
 }
 
@@ -159,7 +155,7 @@
 }
 
 .lots {
-    height: 579px;
+    
     background-color: #FFF;
     padding: 180px 50px;
 
@@ -243,7 +239,22 @@ list-style: none;
 }
 
 .about {
+ padding: 0 50px 180px;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
 
+}
+
+.about__column {
+
+}
+
+.about__logo {
+    max-width: 240px;
+    max-height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 63px 46px;
 }
 
 .footer {
