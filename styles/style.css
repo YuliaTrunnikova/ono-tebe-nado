@@ -123,6 +123,7 @@
   z-index: 1;
   color: #fff;
   font-size: 22px;
+  font-family:  "Raleway", sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -143,6 +144,9 @@
   height: 52px;
   border: solid #fff 1px;
   cursor: pointer;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 }
 
 .lots {
